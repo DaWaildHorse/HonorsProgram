@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0698F70F2DBACE7700F6B19B /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0698F70E2DBACE7700F6B19B /* AudioKit */; };
+		0698F7122DBACF6300F6B19B /* SoundpipeAudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0698F7112DBACF6300F6B19B /* SoundpipeAudioKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0698F6E12DBAC92C00F6B19B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0698F6C82DBAC92B00F6B19B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0698F6CF2DBAC92B00F6B19B;
+			remoteInfo = MFCC;
+		};
+		0698F6EB2DBAC92C00F6B19B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0698F6C82DBAC92B00F6B19B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0698F6CF2DBAC92B00F6B19B;
+			remoteInfo = MFCC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0698F6D02DBAC92B00F6B19B /* MFCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0698F6E02DBAC92C00F6B19B /* MFCCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MFCCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0698F6EA2DBAC92C00F6B19B /* MFCCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MFCCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0698F7232DBAD76100F6B19B /* Exceptions for "MFCC" folder in "MFCC" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 0698F6CF2DBAC92B00F6B19B /* MFCC */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0698F6D22DBAC92B00F6B19B /* MFCC */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0698F7232DBAD76100F6B19B /* Exceptions for "MFCC" folder in "MFCC" target */,
+			);
+			path = MFCC;
+			sourceTree = "<group>";
+		};
+		0698F6E32DBAC92C00F6B19B /* MFCCTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MFCCTests;
+			sourceTree = "<group>";
+		};
+		0698F6ED2DBAC92C00F6B19B /* MFCCUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MFCCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0698F6CD2DBAC92B00F6B19B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0698F7122DBACF6300F6B19B /* SoundpipeAudioKit in Frameworks */,
+				0698F70F2DBACE7700F6B19B /* AudioKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0698F6DD2DBAC92C00F6B19B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0698F6E72DBAC92C00F6B19B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0698F6C72DBAC92B00F6B19B = {
+			isa = PBXGroup;
+			children = (
+				0698F6D22DBAC92B00F6B19B /* MFCC */,
+				0698F6E32DBAC92C00F6B19B /* MFCCTests */,
+				0698F6ED2DBAC92C00F6B19B /* MFCCUITests */,
+				0698F6D12DBAC92B00F6B19B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0698F6D12DBAC92B00F6B19B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0698F6D02DBAC92B00F6B19B /* MFCC.app */,
+				0698F6E02DBAC92C00F6B19B /* MFCCTests.xctest */,
+				0698F6EA2DBAC92C00F6B19B /* MFCCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0698F6CF2DBAC92B00F6B19B /* MFCC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0698F6F42DBAC92C00F6B19B /* Build configuration list for PBXNativeTarget "MFCC" */;
+			buildPhases = (
+				0698F6CC2DBAC92B00F6B19B /* Sources */,
+				0698F6CD2DBAC92B00F6B19B /* Frameworks */,
+				0698F6CE2DBAC92B00F6B19B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0698F6D22DBAC92B00F6B19B /* MFCC */,
+			);
+			name = MFCC;
+			packageProductDependencies = (
+				0698F70E2DBACE7700F6B19B /* AudioKit */,
+				0698F7112DBACF6300F6B19B /* SoundpipeAudioKit */,
+			);
+			productName = MFCC;
+			productReference = 0698F6D02DBAC92B00F6B19B /* MFCC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0698F6DF2DBAC92C00F6B19B /* MFCCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0698F6F72DBAC92C00F6B19B /* Build configuration list for PBXNativeTarget "MFCCTests" */;
+			buildPhases = (
+				0698F6DC2DBAC92C00F6B19B /* Sources */,
+				0698F6DD2DBAC92C00F6B19B /* Frameworks */,
+				0698F6DE2DBAC92C00F6B19B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0698F6E22DBAC92C00F6B19B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0698F6E32DBAC92C00F6B19B /* MFCCTests */,
+			);
+			name = MFCCTests;
+			packageProductDependencies = (
+			);
+			productName = MFCCTests;
+			productReference = 0698F6E02DBAC92C00F6B19B /* MFCCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0698F6E92DBAC92C00F6B19B /* MFCCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0698F6FA2DBAC92C00F6B19B /* Build configuration list for PBXNativeTarget "MFCCUITests" */;
+			buildPhases = (
+				0698F6E62DBAC92C00F6B19B /* Sources */,
+				0698F6E72DBAC92C00F6B19B /* Frameworks */,
+				0698F6E82DBAC92C00F6B19B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0698F6EC2DBAC92C00F6B19B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0698F6ED2DBAC92C00F6B19B /* MFCCUITests */,
+			);
+			name = MFCCUITests;
+			packageProductDependencies = (
+			);
+			productName = MFCCUITests;
+			productReference = 0698F6EA2DBAC92C00F6B19B /* MFCCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0698F6C82DBAC92B00F6B19B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					0698F6CF2DBAC92B00F6B19B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					0698F6DF2DBAC92C00F6B19B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 0698F6CF2DBAC92B00F6B19B;
+					};
+					0698F6E92DBAC92C00F6B19B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 0698F6CF2DBAC92B00F6B19B;
+					};
+				};
+			};
+			buildConfigurationList = 0698F6CB2DBAC92B00F6B19B /* Build configuration list for PBXProject "MFCC" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0698F6C72DBAC92B00F6B19B;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0698F6FD2DBACA3900F6B19B /* XCRemoteSwiftPackageReference "AudioKit" */,
+				0698F6FE2DBACBA200F6B19B /* XCRemoteSwiftPackageReference "AudioKitEX" */,
+				0698F7102DBACF4600F6B19B /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0698F6D12DBAC92B00F6B19B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0698F6CF2DBAC92B00F6B19B /* MFCC */,
+				0698F6DF2DBAC92C00F6B19B /* MFCCTests */,
+				0698F6E92DBAC92C00F6B19B /* MFCCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0698F6CE2DBAC92B00F6B19B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0698F6DE2DBAC92C00F6B19B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0698F6E82DBAC92C00F6B19B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0698F6CC2DBAC92B00F6B19B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0698F6DC2DBAC92C00F6B19B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0698F6E62DBAC92C00F6B19B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0698F6E22DBAC92C00F6B19B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0698F6CF2DBAC92B00F6B19B /* MFCC */;
+			targetProxy = 0698F6E12DBAC92C00F6B19B /* PBXContainerItemProxy */;
+		};
+		0698F6EC2DBAC92C00F6B19B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0698F6CF2DBAC92B00F6B19B /* MFCC */;
+			targetProxy = 0698F6EB2DBAC92C00F6B19B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0698F6F22DBAC92C00F6B19B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0698F6F32DBAC92C00F6B19B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0698F6F52DBAC92C00F6B19B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MFCC/Preview Content\"";
+				DEVELOPMENT_TEAM = 68W72M6366;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MFCC/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Micro?";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Micro?";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andre.MFCC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0698F6F62DBAC92C00F6B19B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MFCC/Preview Content\"";
+				DEVELOPMENT_TEAM = 68W72M6366;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MFCC/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Micro?";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Micro?";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andre.MFCC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0698F6F82DBAC92C00F6B19B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68W72M6366;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andre.MFCCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MFCC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MFCC";
+			};
+			name = Debug;
+		};
+		0698F6F92DBAC92C00F6B19B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68W72M6366;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andre.MFCCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MFCC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MFCC";
+			};
+			name = Release;
+		};
+		0698F6FB2DBAC92C00F6B19B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68W72M6366;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andre.MFCCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MFCC;
+			};
+			name = Debug;
+		};
+		0698F6FC2DBAC92C00F6B19B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68W72M6366;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andre.MFCCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MFCC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0698F6CB2DBAC92B00F6B19B /* Build configuration list for PBXProject "MFCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0698F6F22DBAC92C00F6B19B /* Debug */,
+				0698F6F32DBAC92C00F6B19B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0698F6F42DBAC92C00F6B19B /* Build configuration list for PBXNativeTarget "MFCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0698F6F52DBAC92C00F6B19B /* Debug */,
+				0698F6F62DBAC92C00F6B19B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0698F6F72DBAC92C00F6B19B /* Build configuration list for PBXNativeTarget "MFCCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0698F6F82DBAC92C00F6B19B /* Debug */,
+				0698F6F92DBAC92C00F6B19B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0698F6FA2DBAC92C00F6B19B /* Build configuration list for PBXNativeTarget "MFCCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0698F6FB2DBAC92C00F6B19B /* Debug */,
+				0698F6FC2DBAC92C00F6B19B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0698F6FD2DBACA3900F6B19B /* XCRemoteSwiftPackageReference "AudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.5;
+			};
+		};
+		0698F6FE2DBACBA200F6B19B /* XCRemoteSwiftPackageReference "AudioKitEX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKitEX.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.2;
+			};
+		};
+		0698F7102DBACF4600F6B19B /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/SoundpipeAudioKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0698F70E2DBACE7700F6B19B /* AudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0698F6FD2DBACA3900F6B19B /* XCRemoteSwiftPackageReference "AudioKit" */;
+			productName = AudioKit;
+		};
+		0698F7112DBACF6300F6B19B /* SoundpipeAudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0698F7102DBACF4600F6B19B /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */;
+			productName = SoundpipeAudioKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0698F6C82DBAC92B00F6B19B /* Project object */;
+}
