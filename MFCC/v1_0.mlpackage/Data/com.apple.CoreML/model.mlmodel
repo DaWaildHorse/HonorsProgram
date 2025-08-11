@@ -1,0 +1,221 @@
+“
+
+x
+*
+†ÄR
+var_10
+*
+†Ä¢ß¢9
+#com.github.apple.coremltools.sourcetorch==2.5.1+cu124¢:
++com.github.apple.coremltools.source_dialectTorchScript¢+
+$com.github.apple.coremltools.version8.2≤‘·
+mainÿ
+
+x
+
+
+CoreML5≥
+CoreML5ßvar_10f
+const
+x_to_fp16_dtype_0
+*'
+name
+
+"
+x_to_fp16_dtype_0*
+val
+
+
+"
+fp16ú
+const(
+fc1_weight_to_fp16
+
+
+@
+*(
+name 
+
+"
+fc1_weight_to_fp16*?
+val8
+
+
+@
+*"
+@model_path/weights/weight.bin@ç
+const 
+fc1_bias_to_fp16
+
+
+
+@*&
+name
+
+"
+fc1_bias_to_fp16*:
+val3
+
+
+
+@*#
+@model_path/weights/weight.binÄq
+cast
+dtype
+
+x_to_fp16_dtype_0
+
+x
+
+x
+	x_to_fp16
+
+
+
+*
+name
+
+
+"
+cast_1∞
+linear 
+weight
+
+fc1_weight_to_fp16
+bias
+
+fc1_bias_to_fp16
+x
+
+	x_to_fp16(
+linear_0_cast_fp16
+
+
+
+@*(
+name 
+
+"
+linear_0_cast_fp16q
+relu
+x
+
+linear_0_cast_fp16%
+input_cast_fp16
+
+
+
+@*%
+name
+
+"
+input_cast_fp16ù
+const(
+fc2_weight_to_fp16
+
+
+
+@*(
+name 
+
+"
+fc2_weight_to_fp16*@
+val9
+
+
+
+@*#
+@model_path/weights/weight.bin¿v
+const 
+fc2_bias_to_fp16
+
+
+
+*&
+name
+
+"
+fc2_bias_to_fp16*#
+val
+
+
+
+
+
+:
+î´®(0∂
+linear 
+weight
+
+fc2_weight_to_fp16
+bias
+
+fc2_bias_to_fp16
+x
+
+input_cast_fp16(
+linear_1_cast_fp16
+
+
+
+*(
+name 
+
+"
+linear_1_cast_fp16à
+const*
+"linear_1_cast_fp16_to_fp32_dtype_0
+*8
+name0
+(
+&"$
+"linear_1_cast_fp16_to_fp32_dtype_0*
+val
+
+
+"
+fp32ê
+cast/
+dtype&
+$
+"linear_1_cast_fp16_to_fp32_dtype_0
+x
+
+linear_1_cast_fp16
+var_10
+
+
+*
+name
+
+
+"
+cast_0"Î
+	buildInfo›"
+
+
+ "«
+6
+!
+
+"
+coremltools-version
+	
+"
+8.2
+F
+)
+!
+"
+coremltools-component-torch
+
+"
+2.5.1+cu124
+E
+(
+ 
+"
+coremltools-source-dialect
+
+"
+TorchScript
